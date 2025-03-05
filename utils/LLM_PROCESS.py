@@ -1,10 +1,13 @@
 import os
 import google.generativeai as genai
 from dotenv import load_dotenv
+import logging
+from utils.constants import SYSTEM_PROMPT
 
 load_dotenv()
 
 def process_image_classification( imagePath, mime_type="image/png"):
+
     genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
 
     def upload_to_gemini(path, mime_type=None):
@@ -23,7 +26,7 @@ def process_image_classification( imagePath, mime_type="image/png"):
     model = genai.GenerativeModel(
         model_name="gemini-1.5-flash",
         generation_config=generation_config,
-        system_instruction="I am making a program that will classify if a given image is part of a LIVE cricket match or is it an add shown during LIVE match. Your task is to tell me if the image provided is an advertisement or not. Your response shoud have only one of the following words .\n\n1. \"YES\" if the image has only advertisement and no LIVE cricket\n2. \"NO\" if the image doesn't have advertisement.\n3. \"AMBIGUOUS\" if you aren;t sure",
+        system_instruction=SYSTEM_PROMPT,
     )
 
     files = [
@@ -41,6 +44,12 @@ def process_image_classification( imagePath, mime_type="image/png"):
         ]
     )
 
-    response = chat_session.send_message("INSERT_INPUT_HERE")
+    response = chat_session.send_message("Give your opinion")
 
-    return response.text
+    if "YES" in response.text:
+        return "YES"
+    elif "NO" in response.text:
+        return "NO"
+    else:
+        logging.error(f"LLM returned unexpected response: {response.text}, imagePath: {imagePath}")
+        return "AMBIGUOUS"

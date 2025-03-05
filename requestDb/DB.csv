@@ -1,3 +1,11 @@
-requestId,userId,imageId,timestamp,llm_response
+requestId,userId,imageId,timestamp,llm_response,user_id
 15655c78-8406-4c77-a72f-a1fe208c4c55,,d1ba95ae-7b09-4eea-81c5-10e59ab7a9d2.png,,"YES
-"
+",
+7374fbb4-71dc-49cb-b1c0-1b2fd974ecb0,,5be946e4-41a3-4920-8505-80657bef7da5.png,,"YES
+",
+50276d83-c77f-411e-8d90-e04d7c105146,,4652622a-5685-461c-9faf-62b2e8a1f3ea.png,,"NO
+",
+6de74ab3-4e59-448c-a5b2-7e4292230b4c,,afb3a62e-526a-4b36-986d-9483d8507663.png,,"NO
+",
+f22ad119-cc05-47d9-a9bb-26ce84f700da,,1938e575-3f39-414b-8bad-45ec5c567608.png,2025-03-05 20:20:16.666354,"NO
+",local_user
