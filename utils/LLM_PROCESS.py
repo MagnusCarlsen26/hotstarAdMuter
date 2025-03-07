@@ -11,8 +11,9 @@ def process_image_classification( imagePath, mime_type="image/png"):
     genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
 
     def upload_to_gemini(path, mime_type=None):
+        logging.info(f"Uploading image to Gemini")
         file = genai.upload_file(path, mime_type=mime_type)
-        print(f"Uploaded file '{file.display_name}' as: {file.uri}")
+        logging.info(f"Uploaded image to Gemini")
         return file
 
     generation_config = {

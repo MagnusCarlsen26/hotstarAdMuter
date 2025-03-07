@@ -22,6 +22,9 @@ app = Flask(__name__)
 
 @app.route('/upload', methods=['POST'])
 def upload_image():
+
+    logging.info(f"Upload image request received")
+
     try:
 
         if request.is_json:

@@ -1,0 +1,107 @@
+19:31:22 - WARNING - _log  -  * Debugger is active! - _internal.py - 97
+19:31:22 - INFO - _log  -  * Debugger PIN: 135-139-667 - _internal.py - 97
+19:31:22 - INFO - upload_image  - Upload image request received - server.py - 26
+19:31:22 - INFO - upload_image  - JSON request received: requestId: c307259c-27de-466c-ad63-3dbffcb443d6 imageId: 7be5245e-02d6-47e5-81fc-f2545c7bb3e2.png - server.py - 39
+19:31:22 - INFO - upload_to_gemini  - Uploading image to Gemini - LLM_PROCESS.py - 14
+19:31:31 - INFO - upload_to_gemini  - Uploaded image to Gemini - LLM_PROCESS.py - 16
+19:31:34 - INFO - upload_image  - File processed: requestId: c307259c-27de-466c-ad63-3dbffcb443d6 imageId: 7be5245e-02d6-47e5-81fc-f2545c7bb3e2.png result: NO - server.py - 78
+19:31:34 - INFO - _log  - 127.0.0.1 - - [07/Mar/2025 19:31:34] "POST /upload HTTP/1.1" 200 - - _internal.py - 97
+19:31:34 - INFO - upload_image  - Upload image request received - server.py - 26
+19:31:34 - INFO - upload_image  - JSON request received: requestId: 74c83565-37f6-42af-a3a2-1f601ab707e1 imageId: 1e2d0ee7-3257-4a7e-9d3a-86eb9e7fb5ee.png - server.py - 39
+19:31:34 - INFO - upload_to_gemini  - Uploading image to Gemini - LLM_PROCESS.py - 14
+19:31:43 - INFO - upload_to_gemini  - Uploaded image to Gemini - LLM_PROCESS.py - 16
+19:31:47 - INFO - upload_image  - File processed: requestId: 74c83565-37f6-42af-a3a2-1f601ab707e1 imageId: 1e2d0ee7-3257-4a7e-9d3a-86eb9e7fb5ee.png result: NO - server.py - 78
+19:31:47 - INFO - _log  - 127.0.0.1 - - [07/Mar/2025 19:31:47] "POST /upload HTTP/1.1" 200 - - _internal.py - 97
+19:31:47 - INFO - upload_image  - Upload image request received - server.py - 26
+19:31:47 - INFO - upload_image  - JSON request received: requestId: 10602ac4-7a95-4f41-9912-967be508e577 imageId: b520f90c-d103-4b68-8138-48f98aa6fc2f.png - server.py - 39
+19:31:47 - INFO - upload_to_gemini  - Uploading image to Gemini - LLM_PROCESS.py - 14
+19:31:56 - INFO - upload_to_gemini  - Uploaded image to Gemini - LLM_PROCESS.py - 16
+19:31:59 - INFO - upload_image  - File processed: requestId: 10602ac4-7a95-4f41-9912-967be508e577 imageId: b520f90c-d103-4b68-8138-48f98aa6fc2f.png result: NO - server.py - 78
+19:31:59 - INFO - _log  - 127.0.0.1 - - [07/Mar/2025 19:31:59] "POST /upload HTTP/1.1" 200 - - _internal.py - 97
+19:31:59 - INFO - upload_image  - Upload image request received - server.py - 26
+19:31:59 - INFO - upload_image  - JSON request received: requestId: fd4fa2c7-472e-44ec-8b67-38e093281b01 imageId: b452cafd-c249-4753-9ad1-a1152edbcb5f.png - server.py - 39
+19:31:59 - INFO - upload_to_gemini  - Uploading image to Gemini - LLM_PROCESS.py - 14
+19:32:09 - INFO - upload_to_gemini  - Uploaded image to Gemini - LLM_PROCESS.py - 16
+19:32:12 - INFO - upload_image  - File processed: requestId: fd4fa2c7-472e-44ec-8b67-38e093281b01 imageId: b452cafd-c249-4753-9ad1-a1152edbcb5f.png result: NO - server.py - 78
+19:32:12 - INFO - _log  - 127.0.0.1 - - [07/Mar/2025 19:32:12] "POST /upload HTTP/1.1" 200 - - _internal.py - 97
+19:32:12 - INFO - upload_image  - Upload image request received - server.py - 26
+19:32:12 - INFO - upload_image  - JSON request received: requestId: 778ae4f2-9056-41ca-bccf-5362da1eea04 imageId: deb63cac-1104-47e7-9bfe-93b10bb32e78.png - server.py - 39
+19:32:12 - INFO - upload_to_gemini  - Uploading image to Gemini - LLM_PROCESS.py - 14
+19:32:24 - INFO - upload_to_gemini  - Uploaded image to Gemini - LLM_PROCESS.py - 16
+19:32:27 - INFO - upload_image  - File processed: requestId: 778ae4f2-9056-41ca-bccf-5362da1eea04 imageId: deb63cac-1104-47e7-9bfe-93b10bb32e78.png result: NO - server.py - 78
+19:32:27 - INFO - _log  - 127.0.0.1 - - [07/Mar/2025 19:32:27] "POST /upload HTTP/1.1" 200 - - _internal.py - 97
+19:32:27 - INFO - upload_image  - Upload image request received - server.py - 26
+19:32:27 - INFO - upload_image  - JSON request received: requestId: f989faa5-833a-4dd6-8770-2fc286e66179 imageId: 46fb9556-7b76-4f48-8154-eb01df8f9557.png - server.py - 39
+19:32:27 - INFO - upload_to_gemini  - Uploading image to Gemini - LLM_PROCESS.py - 14
+19:32:36 - INFO - upload_to_gemini  - Uploaded image to Gemini - LLM_PROCESS.py - 16
+19:32:39 - INFO - upload_image  - File processed: requestId: f989faa5-833a-4dd6-8770-2fc286e66179 imageId: 46fb9556-7b76-4f48-8154-eb01df8f9557.png result: NO - server.py - 78
+19:32:39 - INFO - _log  - 127.0.0.1 - - [07/Mar/2025 19:32:39] "POST /upload HTTP/1.1" 200 - - _internal.py - 97
+19:32:39 - INFO - upload_image  - Upload image request received - server.py - 26
+19:32:39 - INFO - upload_image  - JSON request received: requestId: ac5f376b-d605-40a1-891e-950393ee9751 imageId: de64c5fc-cdaf-4386-8543-739d73540178.png - server.py - 39
+19:32:39 - INFO - upload_to_gemini  - Uploading image to Gemini - LLM_PROCESS.py - 14
+19:32:49 - INFO - upload_to_gemini  - Uploaded image to Gemini - LLM_PROCESS.py - 16
+19:32:53 - INFO - upload_image  - File processed: requestId: ac5f376b-d605-40a1-891e-950393ee9751 imageId: de64c5fc-cdaf-4386-8543-739d73540178.png result: NO - server.py - 78
+19:32:53 - INFO - _log  - 127.0.0.1 - - [07/Mar/2025 19:32:53] "POST /upload HTTP/1.1" 200 - - _internal.py - 97
+19:32:53 - INFO - upload_image  - Upload image request received - server.py - 26
+19:32:53 - INFO - upload_image  - JSON request received: requestId: 532e75ac-c15f-44b2-af93-14cb4767e854 imageId: 98cd330e-88a2-4c23-a590-89e9b9f6f6c8.png - server.py - 39
+19:32:53 - INFO - upload_to_gemini  - Uploading image to Gemini - LLM_PROCESS.py - 14
+19:33:01 - INFO - upload_to_gemini  - Uploaded image to Gemini - LLM_PROCESS.py - 16
+19:33:04 - INFO - upload_image  - File processed: requestId: 532e75ac-c15f-44b2-af93-14cb4767e854 imageId: 98cd330e-88a2-4c23-a590-89e9b9f6f6c8.png result: NO - server.py - 78
+19:33:04 - INFO - _log  - 127.0.0.1 - - [07/Mar/2025 19:33:04] "POST /upload HTTP/1.1" 200 - - _internal.py - 97
+19:33:04 - INFO - upload_image  - Upload image request received - server.py - 26
+19:33:04 - INFO - upload_image  - JSON request received: requestId: 2f1b4637-85b6-47e7-a676-4a8d60044d67 imageId: 291c6846-8c1d-43fa-b035-5df312a244e8.png - server.py - 39
+19:33:04 - INFO - upload_to_gemini  - Uploading image to Gemini - LLM_PROCESS.py - 14
+19:33:14 - INFO - upload_to_gemini  - Uploaded image to Gemini - LLM_PROCESS.py - 16
+19:33:17 - INFO - upload_image  - File processed: requestId: 2f1b4637-85b6-47e7-a676-4a8d60044d67 imageId: 291c6846-8c1d-43fa-b035-5df312a244e8.png result: NO - server.py - 78
+19:33:17 - INFO - _log  - 127.0.0.1 - - [07/Mar/2025 19:33:17] "POST /upload HTTP/1.1" 200 - - _internal.py - 97
+19:33:17 - INFO - upload_image  - Upload image request received - server.py - 26
+19:33:17 - INFO - upload_image  - JSON request received: requestId: 7fd32f23-3dbe-4925-af9c-9bc720968641 imageId: 7e4ebe7b-98fb-4da2-a642-07ae834db81d.png - server.py - 39
+19:33:17 - INFO - upload_to_gemini  - Uploading image to Gemini - LLM_PROCESS.py - 14
+19:33:28 - INFO - upload_to_gemini  - Uploaded image to Gemini - LLM_PROCESS.py - 16
+19:33:31 - INFO - upload_image  - File processed: requestId: 7fd32f23-3dbe-4925-af9c-9bc720968641 imageId: 7e4ebe7b-98fb-4da2-a642-07ae834db81d.png result: NO - server.py - 78
+19:33:31 - INFO - _log  - 127.0.0.1 - - [07/Mar/2025 19:33:31] "POST /upload HTTP/1.1" 200 - - _internal.py - 97
+19:33:31 - INFO - upload_image  - Upload image request received - server.py - 26
+19:33:31 - INFO - upload_image  - JSON request received: requestId: 6ad1bfdc-ea4d-4e18-9775-ebedc0ce733c imageId: fc5842d9-353d-48ad-b591-53479322b280.png - server.py - 39
+19:33:31 - INFO - upload_to_gemini  - Uploading image to Gemini - LLM_PROCESS.py - 14
+19:33:39 - INFO - upload_to_gemini  - Uploaded image to Gemini - LLM_PROCESS.py - 16
+19:33:42 - INFO - upload_image  - File processed: requestId: 6ad1bfdc-ea4d-4e18-9775-ebedc0ce733c imageId: fc5842d9-353d-48ad-b591-53479322b280.png result: NO - server.py - 78
+19:33:42 - INFO - _log  - 127.0.0.1 - - [07/Mar/2025 19:33:42] "POST /upload HTTP/1.1" 200 - - _internal.py - 97
+19:33:42 - INFO - upload_image  - Upload image request received - server.py - 26
+19:33:42 - INFO - upload_image  - JSON request received: requestId: 6a03a718-37ec-4c68-872c-c502703859d6 imageId: fcaf08cc-c27f-41aa-bdb5-7c07f969fbd9.png - server.py - 39
+19:33:42 - INFO - upload_to_gemini  - Uploading image to Gemini - LLM_PROCESS.py - 14
+19:33:52 - INFO - upload_to_gemini  - Uploaded image to Gemini - LLM_PROCESS.py - 16
+19:33:55 - INFO - upload_image  - File processed: requestId: 6a03a718-37ec-4c68-872c-c502703859d6 imageId: fcaf08cc-c27f-41aa-bdb5-7c07f969fbd9.png result: NO - server.py - 78
+19:33:55 - INFO - _log  - 127.0.0.1 - - [07/Mar/2025 19:33:55] "POST /upload HTTP/1.1" 200 - - _internal.py - 97
+19:33:55 - INFO - upload_image  - Upload image request received - server.py - 26
+19:33:55 - INFO - upload_image  - JSON request received: requestId: c8924cb0-a184-468b-818b-5c504a616bcf imageId: 4712a39b-9cf2-40fb-a9a3-d250315bad17.png - server.py - 39
+19:33:55 - INFO - upload_to_gemini  - Uploading image to Gemini - LLM_PROCESS.py - 14
+19:34:07 - INFO - upload_to_gemini  - Uploaded image to Gemini - LLM_PROCESS.py - 16
+19:34:10 - INFO - upload_image  - File processed: requestId: c8924cb0-a184-468b-818b-5c504a616bcf imageId: 4712a39b-9cf2-40fb-a9a3-d250315bad17.png result: NO - server.py - 78
+19:34:10 - INFO - _log  - 127.0.0.1 - - [07/Mar/2025 19:34:10] "POST /upload HTTP/1.1" 200 - - _internal.py - 97
+19:34:10 - INFO - upload_image  - Upload image request received - server.py - 26
+19:34:10 - INFO - upload_image  - JSON request received: requestId: 26532d69-64b9-49b3-8d9b-67a0f066045b imageId: 9a47df39-ba01-4e89-8fc1-6038565b0977.png - server.py - 39
+19:34:10 - INFO - upload_to_gemini  - Uploading image to Gemini - LLM_PROCESS.py - 14
+19:34:20 - INFO - upload_to_gemini  - Uploaded image to Gemini - LLM_PROCESS.py - 16
+19:34:23 - INFO - upload_image  - File processed: requestId: 26532d69-64b9-49b3-8d9b-67a0f066045b imageId: 9a47df39-ba01-4e89-8fc1-6038565b0977.png result: NO - server.py - 78
+19:34:23 - INFO - _log  - 127.0.0.1 - - [07/Mar/2025 19:34:23] "POST /upload HTTP/1.1" 200 - - _internal.py - 97
+19:34:23 - INFO - upload_image  - Upload image request received - server.py - 26
+19:34:23 - INFO - upload_image  - JSON request received: requestId: 3e261d73-891e-4d5e-af85-ff1c3853e07d imageId: c86eb4bf-876b-42f0-a99c-3526a470d23f.png - server.py - 39
+19:34:23 - INFO - upload_to_gemini  - Uploading image to Gemini - LLM_PROCESS.py - 14
+19:34:33 - INFO - upload_to_gemini  - Uploaded image to Gemini - LLM_PROCESS.py - 16
+19:34:36 - INFO - upload_image  - File processed: requestId: 3e261d73-891e-4d5e-af85-ff1c3853e07d imageId: c86eb4bf-876b-42f0-a99c-3526a470d23f.png result: NO - server.py - 78
+19:34:36 - INFO - _log  - 127.0.0.1 - - [07/Mar/2025 19:34:36] "POST /upload HTTP/1.1" 200 - - _internal.py - 97
+19:34:36 - INFO - upload_image  - Upload image request received - server.py - 26
+19:34:36 - INFO - upload_image  - JSON request received: requestId: 8ca3f4a4-cc34-494b-a167-8d46c9995d6b imageId: ef6a6426-10f5-4aa7-aeda-5b83cf5c0469.png - server.py - 39
+19:34:36 - INFO - upload_to_gemini  - Uploading image to Gemini - LLM_PROCESS.py - 14
+19:34:47 - INFO - upload_to_gemini  - Uploaded image to Gemini - LLM_PROCESS.py - 16
+19:34:50 - INFO - upload_image  - File processed: requestId: 8ca3f4a4-cc34-494b-a167-8d46c9995d6b imageId: ef6a6426-10f5-4aa7-aeda-5b83cf5c0469.png result: NO - server.py - 78
+19:34:50 - INFO - _log  - 127.0.0.1 - - [07/Mar/2025 19:34:50] "POST /upload HTTP/1.1" 200 - - _internal.py - 97
+19:34:50 - INFO - upload_image  - Upload image request received - server.py - 26
+19:34:50 - INFO - upload_image  - JSON request received: requestId: e3a432b7-8e4e-42e5-af00-5f31d70fc1ed imageId: 6a436db1-2dce-4df5-980f-a29f8604dda3.png - server.py - 39
+19:34:50 - INFO - upload_to_gemini  - Uploading image to Gemini - LLM_PROCESS.py - 14
+19:35:00 - INFO - upload_to_gemini  - Uploaded image to Gemini - LLM_PROCESS.py - 16
+19:35:03 - INFO - upload_image  - File processed: requestId: e3a432b7-8e4e-42e5-af00-5f31d70fc1ed imageId: 6a436db1-2dce-4df5-980f-a29f8604dda3.png result: YES - server.py - 78
+19:35:03 - INFO - _log  - 127.0.0.1 - - [07/Mar/2025 19:35:03] "POST /upload HTTP/1.1" 200 - - _internal.py - 97
+19:35:03 - INFO - upload_image  - Upload image request received - server.py - 26
+19:35:03 - INFO - upload_image  - JSON request received: requestId: fbb0c1fb-7810-4bb4-8a89-2f785e05e773 imageId: 96759e5c-08c7-4edc-b85d-76d933f6abef.png - server.py - 39
+19:35:03 - INFO - upload_to_gemini  - Uploading image to Gemini - LLM_PROCESS.py - 14
