@@ -3,6 +3,7 @@ import uuid
 import logging
 import traceback
 import base64
+import time
 
 from flask import Flask, request, jsonify
 
@@ -34,7 +35,7 @@ def upload_image():
                 return jsonify({'error': 'No image data in the request'}), 400
             
             requestId = str(uuid.uuid4())
-            imageId = str(uuid.uuid4()) + ".png"
+            imageId = str(int(time.time())) + ".png"
             
             logging.info(f"JSON request received: requestId: {requestId} imageId: {imageId}")
             
@@ -64,7 +65,7 @@ def upload_image():
                 return jsonify({'error': 'No image selected for uploading'}), 400
 
             requestId = str(uuid.uuid4())
-            imageId = str(uuid.uuid4()) + ".png"
+            imageId = str(int(time.time())) + ".png"
 
             logging.info(f"File received: requestId: {requestId} imageId: {imageId}")
 
